@@ -17,8 +17,11 @@ MULTIPLE_TRACK_OTIO_PATH = os.path.join(SAMPLE_DATA_DIR, 'multiple_track.otio')
 MULTIPLE_TRACK_SVG_PATH = os.path.join(SAMPLE_DATA_DIR, 'multiple_track.svg')
 TRANSITION_OTIO_PATH = os.path.join(SAMPLE_DATA_DIR, 'transition.otio')
 TRANSITION_SVG_PATH = os.path.join(SAMPLE_DATA_DIR, 'transition.svg')
-MEDIA_REF_HANDLING_OTIO_PATH = os.path.join(SAMPLE_DATA_DIR, 'media_ref_handling.otio')
-MEDIA_REF_HANDLING_SVG_PATH = os.path.join(SAMPLE_DATA_DIR, 'media_ref_handling.svg')
+MEDIA_REF_HANDLING_OTIO_PATH = \
+    os.path.join(SAMPLE_DATA_DIR, 'media_ref_handling.otio')
+MEDIA_REF_HANDLING_SVG_PATH = \
+    os.path.join(SAMPLE_DATA_DIR, 'media_ref_handling.svg')
+
 
 def _svg_equal(e1, e2):
     if e1.tag != e2.tag:

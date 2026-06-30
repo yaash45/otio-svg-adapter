@@ -1103,26 +1103,28 @@ def _draw_clip(clip, svg_writer, extra_data=()):
     svg_writer.draw_text(available_range_text, available_range_location,
                          svg_writer.font_size,
                          )
-    
+
     # Draw media reference target url with or without a sequence range
     target_url_text = r'target_url: {}'.format('Media Unavailable')
     draw_url = False
     media_ref = clip.media_reference
 
-    if isinstance(media_ref, otio.schema.ImageSequenceReference) \
-        and hasattr(media_ref, 'abstract_target_url'):
+    if isinstance(media_ref, otio.schema.ImageSequenceReference):
         # Determine target url in linux range format using media ref metadata
         step = media_ref.frame_step
         start = media_ref.start_frame
-        end = start + (step * (media_ref.number_of_images_in_sequence() - 1))        
+        end = start + (step * (media_ref.number_of_images_in_sequence() - 1))
         seq_range = (
             f"{'0' * media_ref.frame_zero_padding}{{{start}..{end}..{step}}}"
-        )            
-        target_url_text = fr'target_url: {media_ref.abstract_target_url(seq_range)}'
+        )
+        target_url_text = \
+            fr'target_url: {media_ref.abstract_target_url(seq_range)}'
         draw_url = True
-    elif hasattr(media_ref, 'target_url') and media_ref.target_url is not None:
-        target_url_text = fr'target_url: {media_ref.target_url}'
-        draw_url = True
+
+    elif hasattr(media_ref, 'target_url'):
+        if media_ref.target_url is not None:
+            target_url_text = fr'target_url: {media_ref.target_url}'
+            draw_url = True
 
     if draw_url:
         target_url_location = Point(

@@ -1105,7 +1105,7 @@ def _draw_clip(clip, svg_writer, extra_data=()):
                          )
 
     # Draw media reference target url with or without a sequence range
-    target_url_text = r'target_url: {}'.format('Media Unavailable')
+    url_text = r'url: {}'.format('Media Unavailable')
     draw_url = False
     media_ref = clip.media_reference
 
@@ -1117,22 +1117,22 @@ def _draw_clip(clip, svg_writer, extra_data=()):
         seq_range = (
             f"{'0' * media_ref.frame_zero_padding}{{{start}..{end}..{step}}}"
         )
-        target_url_text = \
-            fr'target_url: {media_ref.abstract_target_url(seq_range)}'
+        url_text = \
+            fr'url: {media_ref.abstract_target_url(seq_range)}'
         draw_url = True
 
     elif hasattr(media_ref, 'target_url'):
         if media_ref.target_url is not None:
-            target_url_text = fr'target_url: {media_ref.target_url}'
+            url_text = fr'url: {media_ref.target_url}'
             draw_url = True
 
     if draw_url:
-        target_url_location = Point(
+        url_location = Point(
             media_origin.x + svg_writer.font_size,
             media_origin.y - 2.0 * svg_writer.font_size
         )
         svg_writer.draw_text(
-            target_url_text, target_url_location, svg_writer.font_size
+            url_text, url_location, svg_writer.font_size
         )
 
     # Draw arrow from clip to media reference

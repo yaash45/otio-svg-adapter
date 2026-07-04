@@ -92,7 +92,7 @@
   <g transform="translate(342.63636364,544.80000000)">
     <rect width="322.63636364" height="65.60000000" style="fill:rgb(37.14566005,116.00638615,196.54987044);stroke-width:2.00000000;stroke:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;"/>
     <svg width="322.63636364" height="65.60000000">
-      <text x="50%" y="50%" font-size="26.24000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.50000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;" alignment-baseline="middle" text-anchor="middle">Media-001</text>
+      <text x="50%" y="50%" font-size="26.24000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.50000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;" alignment-baseline="middle" text-anchor="middle">Test Frame Step 3 Seq Ref</text>
     </svg>
   </g>
   <line x1="20.00000000" y1="610.40000000" x2="20.00000000" y2="600.56000000" style="stroke-width:1.00000000;stroke:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;stroke-linecap:butt;"/>
@@ -104,7 +104,7 @@
   <line x1="665.27272727" y1="610.40000000" x2="665.27272727" y2="600.56000000" style="stroke-width:1.00000000;stroke:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;stroke-linecap:butt;"/>
   <line x1="772.81818182" y1="610.40000000" x2="772.81818182" y2="600.56000000" style="stroke-width:1.00000000;stroke:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;stroke-linecap:butt;"/>
   <text x="35.00000000" y="625.40000000" font-size="15.00000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.25000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;">available_range: 0.0, 8.0</text>
-  <text x="35.00000000" y="640.40000000" font-size="15.00000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.25000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;">file:///folder/titles.mov</text>
+  <text x="35.00000000" y="640.40000000" font-size="15.00000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.25000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;">file:///show/seq/shot/rndr/show_shot.00000{1..7..3}.exr</text>
   <line x1="503.95454545" y1="489.20000000" x2="503.95454545" y2="525.80000000" style="stroke-width:2.00000000;stroke:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;stroke-linecap:butt;"/>
   <polygon points="503.95454545,534.80000000 499.45454545,525.80000000 508.45454545,525.80000000" style="fill:rgb(0.00000000,0.00000000,0.00000000);"/>
   <text x="508.95454545" y="522.00000000" font-size="15.00000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.25000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;">media_reference</text>
@@ -126,7 +126,7 @@
   <g transform="translate(665.27272727,676.00000000)">
     <rect width="645.27272727" height="65.60000000" style="fill:rgb(251.56164182,2.79089346,56.80018692);stroke-width:2.00000000;stroke:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;"/>
     <svg width="645.27272727" height="65.60000000">
-      <text x="50%" y="50%" font-size="26.24000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.50000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;" alignment-baseline="middle" text-anchor="middle">Media-002</text>
+      <text x="50%" y="50%" font-size="26.24000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.50000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;" alignment-baseline="middle" text-anchor="middle">Test Frame Step 1 Seq Ref</text>
     </svg>
   </g>
   <line x1="450.18181818" y1="741.60000000" x2="450.18181818" y2="731.76000000" style="stroke-width:1.00000000;stroke:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;stroke-linecap:butt;"/>
@@ -138,7 +138,7 @@
   <line x1="1095.45454545" y1="741.60000000" x2="1095.45454545" y2="731.76000000" style="stroke-width:1.00000000;stroke:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;stroke-linecap:butt;"/>
   <line x1="1203.00000000" y1="741.60000000" x2="1203.00000000" y2="731.76000000" style="stroke-width:1.00000000;stroke:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;stroke-linecap:butt;"/>
   <text x="465.18181818" y="756.60000000" font-size="15.00000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.25000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;">available_range: 0.0, 8.0</text>
-  <text x="465.18181818" y="771.60000000" font-size="15.00000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.25000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;">file:///folder/wind-up.mov</text>
+  <text x="465.18181818" y="771.60000000" font-size="15.00000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.25000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;">file:///show/seq/shot/fx/fx_shot000{1..10..1}.exr</text>
   <line x1="987.90909091" y1="489.20000000" x2="987.90909091" y2="657.00000000" style="stroke-width:2.00000000;stroke:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;stroke-linecap:butt;"/>
   <polygon points="987.90909091,666.00000000 983.40909091,657.00000000 992.40909091,657.00000000" style="fill:rgb(0.00000000,0.00000000,0.00000000);"/>
   <text x="992.90909091" y="522.00000000" font-size="15.00000000" font-family="sans-serif" style="stroke:rgb(0.00000000,0.00000000,0.00000000);stroke-width:0.25000000;fill:rgb(0.00000000,0.00000000,0.00000000);opacity:1.00000000;">media_reference</text>
